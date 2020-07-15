@@ -11,9 +11,9 @@ namespace MvcMovie.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HelloWorldController> _logger;
+        private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HelloWorldController> logger)
+        public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
